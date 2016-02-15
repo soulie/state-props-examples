@@ -1,0 +1,29 @@
+{
+  "name": "redux-state-props-todomvc-example",
+  "version": "0.0.1",
+  "description": "ReduxStateProps to-do list example",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "redux": "^3.3.1",
+    "redux-state-props": "^0.3.0",
+    "state-props": "^0.3.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": {
+    "email": "juan@soulie.com",
+    "name": "Juan Soulie"
+  },
+  "license": "MIT"
+}
