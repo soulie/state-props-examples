@@ -35,14 +35,14 @@ const stateMutations = {
     )
 };
 
-function TodoApp({todos,addTodo,deleteTodo,completeTodo,modifyTodo,completeAll,clearCompleted}) {
+function TodoApp({state,addTodo,deleteTodo,completeTodo,modifyTodo,completeAll,clearCompleted}) {
     return (
         <div>
             <Header
                 addTodo={addTodo}
             />
             <MainSection
-                todos={todos}
+                todos={state}
                 deleteTodo={deleteTodo}
                 completeTodo={completeTodo}
                 modifyTodo={modifyTodo}
@@ -53,4 +53,4 @@ function TodoApp({todos,addTodo,deleteTodo,completeTodo,modifyTodo,completeAll,c
     );
 }
 
-export default stateProps(initialState,stateMutations,{state:"todos"})(TodoApp);
+export default stateProps(initialState,stateMutations)(TodoApp);

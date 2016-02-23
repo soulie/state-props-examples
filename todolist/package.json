@@ -1,6 +1,6 @@
 {
   "name": "redux-state-props-todomvc-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ReduxStateProps to-do list example",
   "devDependencies": {
     "babel-core": "^6.3.26",
@@ -14,8 +14,8 @@
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
     "redux": "^3.3.1",
-    "redux-state-props": "^0.3.0",
-    "state-props": "^0.3.0"
+    "redux-state-props": "^0.4.0",
+    "state-props": "^0.4.2"
   },
   "main": "server.js",
   "scripts": {
